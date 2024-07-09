@@ -1,4 +1,3 @@
-package demo;
 /**
  * class TreeNode. This is a TreeNode. The students should understand the structure of a binary tree node
  *
