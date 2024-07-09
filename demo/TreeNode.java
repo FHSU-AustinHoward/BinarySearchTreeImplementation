@@ -43,6 +43,7 @@ public class TreeNode<E extends Comparable<E>>
      */
     public E getData()
     {
+        return null;
     }
 
     /**
@@ -59,6 +60,7 @@ public class TreeNode<E extends Comparable<E>>
      */
     public TreeNode<E> getParent()
     {
+        return null;
     }
 
     /**
@@ -75,6 +77,7 @@ public class TreeNode<E extends Comparable<E>>
      */
     public TreeNode<E> getLeft()
     {
+        return null;
     }
 
     /**
@@ -91,6 +94,7 @@ public class TreeNode<E extends Comparable<E>>
      */
     public TreeNode<E> getRight()
     {
+        return null;
     }
 
     /**
@@ -100,6 +104,7 @@ public class TreeNode<E extends Comparable<E>>
      */
     public boolean isLeftChild(){
 
+        return false;
     }
 
     /**
@@ -109,6 +114,7 @@ public class TreeNode<E extends Comparable<E>>
      */
     public boolean isRightChild(){
 
+        return false;
     }
 
     /**
@@ -117,6 +123,7 @@ public class TreeNode<E extends Comparable<E>>
      */
     public boolean isLeaf(){
 
+        return false;
     }
 
     /**
@@ -125,5 +132,6 @@ public class TreeNode<E extends Comparable<E>>
      */
     public boolean isRoot(){
 
+        return false;
     }
 }

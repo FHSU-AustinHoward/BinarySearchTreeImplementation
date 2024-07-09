@@ -25,6 +25,7 @@ public class BinarySearchTree<E extends Comparable<E>>
      *         if no node contains data, return null
      */
     public TreeNode<E> search(E data){
+        return null;
     }
 
     /**
@@ -48,6 +49,7 @@ public class BinarySearchTree<E extends Comparable<E>>
      * true. If the data is not in the tree, return false
      */
     public boolean remove(E data){
+        return false;
     }
 
     /**
@@ -55,6 +57,7 @@ public class BinarySearchTree<E extends Comparable<E>>
      * @return a String representation of the tree
      */
     public String toString(){
+        return "";
     }
 
     /**
@@ -62,6 +65,7 @@ public class BinarySearchTree<E extends Comparable<E>>
      * @return true if the tree is empty; false othewise
      */
     public boolean isEmpty(){
+        return false;
     }
 
     /**
@@ -70,6 +74,7 @@ public class BinarySearchTree<E extends Comparable<E>>
      * @return the height of the tree
      */
     public int height(){
+        return 0;
     }
 
     /**
@@ -77,5 +82,6 @@ public class BinarySearchTree<E extends Comparable<E>>
      * @return the number of nodes in this tree
      */
     public int size(){
+        return 0;
     }
 }
