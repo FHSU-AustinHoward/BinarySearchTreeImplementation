@@ -27,10 +27,9 @@ The other two files, TreeNode.java and BinarySearchTree.java, are the files that
 These two files, TreeNode.java and BinarySearchTree.java, must be implemented within the given design. The students 
 cannot change the name of public methods. The students cannot add extra public methods. However, the students may add 
 private methods to make the implementation more clear and easier to read. 
-* For instance, the toString method will return 
-a String representation of a Binary Search Tree. The best way to do so is using recursive thinking. So the toString 
-method actually is a driver method for private method nodeTraversal (see below). The implementation could be as 
-following:
+* For instance, the toString method will return a String representation of a Binary Search Tree. The best way to do so 
+is using recursive thinking. So the toString method actually is a driver method for private method nodeTraversal 
+(see below). The implementation could be as following:
     ```
     public String toString() {
         return "(" + nodeTraversal(root) + ")";
